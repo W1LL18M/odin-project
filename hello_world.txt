@@ -1,0 +1,3 @@
+Hello World!
+This is a task given during the Odin Project
+Time to learn how to commit on Git
