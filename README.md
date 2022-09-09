@@ -1,3 +1,3 @@
-# git_test
+# The Odin Project
 
-Hello Odin!
+Repository for learning HTML, CSS, JavaScript, Node, and React
