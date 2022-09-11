@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../html-boilerplate"
+		},
+		{
+			"path": "../odin-links-and-images"
+		},
+		{
+			"path": "../odin-recipes"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "styles"
+	}
+}

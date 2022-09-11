@@ -1,0 +1,42 @@
+h1 {
+    color : red;
+    font-family :'Courier New', Courier, monospace;
+    text-align : left;
+}
+
+.ancestor {
+    color : green;
+    background-color : bisque;
+}
+
+.ancestor .child {
+    color : blue;
+    background-color :aquamarine;
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.child {
+    color : black;
+}
+
+#header {
+    color : purple;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight : 800;
+    font-size : 15px;
+}
+
+.subsection {
+    font-size : 10px;
+}
+
+#header.subsection {
+    font-size : 50px;
+    color : green;
+}
+
+* {
+    padding : 20px;
+    margin : 10px;
+    border : 1px solid black;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Working with CSS Selectors</h1>
+
+    <div class="ancestor">
+        <p class="child">This is an example of the descendant combinator and should be blue</p>
+    </div>
+    <p class="child">This paragraph also has the child class but it is not nested within an element that
+        has the class "ancestor so it will be black</p>
+
+    <p id="header">Here is a class with ID header</p>
+    <p class="subsection">Here is a class with class subsection</p>
+    <p id="header" class="subsection">Here is a class with ID header and class subsection</p>
+
+    <div id="header">
+        <p>This will have header inherited properties</p>
+        <p class="subsection">This will have subsection properties because it is targeted</p>
+    </div>
+
+</body>
+</html>
