@@ -66,6 +66,7 @@ function game() {
         let playerChoice = prompt("Enter Rock, Paper, or Scissor");
         let compChoice = getComputerChoice();
         let result = playRound(compChoice, playerChoice);
+        // 1 for win, 2 for loss, 3 for tie, and 4 for invalid input
         if (result == 1) {
             console.log("You Win! " + playerChoice.toUpperCase() + " beats " + compChoice.toUpperCase());
             playerWinCount += 1;
@@ -76,9 +77,9 @@ function game() {
             console.log("You Tie! Both players chose " + playerChoice.toUpperCase());
         } else if (result == 4) {
             console.log("You did not enter a valid option");
-            i -= 1;
+            i -= 1; // ensures that this loop does not count as a round
         }
-        console.log("Player Score: " + playerWinCount + "\nComputer Score: " + compWinCount);
+        console.log("Player Score: " + playerWinCount + "\nComputer Score: " + compWinCount); // display scoreboard after each round
     }
     if (playerWinCount > compWinCount) {console.log("Player is the winner!");}
     else if (playerWinCount < compWinCount) {console.log("Computer is the winner!");}
