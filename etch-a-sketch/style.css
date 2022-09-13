@@ -1,0 +1,22 @@
+.container {
+    display : grid;
+    width : 800px;
+    height : 800px;
+    justify-content : center;
+}
+
+.gamecell {
+    border : 1px solid black;
+}
+
+.hover {
+    background-color : pink;
+}
+
+button {
+    margin : 10px;
+}
+
+.selectedmode {
+    background-color : yellow;
+}
